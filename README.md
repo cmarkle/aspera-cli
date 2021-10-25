@@ -1,7 +1,7 @@
 [comment1]: # (Do not edit this README.md, edit docs/README.erb.md, for details, read docs/README.md)
 <font size="+12"><center>`ascli` : Command Line Interface for IBM Aspera products</center></font>
 
-Version : 4.2.3.pre
+Version : 4.4.0.pre
 
 _Laurent/2016-2021_
 
@@ -82,7 +82,7 @@ Once the gem is installed, `ascli` shall be accessible:
 
 ```
 $ ascli --version
-4.2.3.pre
+4.4.0.pre
 ```
 
 ## First use
@@ -234,7 +234,7 @@ If you keep the same terminal (ont needed if re-login):
 $ source ~/.rvm/scripts/rvm
 ```
 
-It is advised to get one of the pre-compiled ruby version, you can list with: 
+It is advised to get one of the pre-compiled ruby version, you can list with:
 
 ```
 $ rvm list --remote
@@ -1795,7 +1795,7 @@ ascli sync start --parameters=@json:'{"sessions":[{"name":"test","reset":true,"r
 ```
 $ ascli -h
 NAME
-	ascli -- a command line tool for Aspera Applications (v4.2.3.pre)
+	ascli -- a command line tool for Aspera Applications (v4.4.0.pre)
 
 SYNOPSIS
 	ascli COMMANDS [OPTIONS] [ARGS]
@@ -3312,7 +3312,7 @@ $ ascli cos node info
 $ ascli cos node upload 'faux:///sample1G?1g'
 ```
 
-Note: we generate a dummy file `sample1G` if size 2GB using the `faux` PVCL (man ascp and section above), but you can of course send a real file by specifying a real file instead.
+Note: we generate a dummy file `sample1G` of size 2GB using the `faux` PVCL (man ascp and section above), but you can of course send a real file by specifying a real file instead.
 
 # Plugin: IBM Aspera Sync
 
@@ -3907,7 +3907,7 @@ So, it evolved into `ascli`:
 
 # Changes (Release notes)
 
-* 4.2.3.pre
+* 4.4.0.pre
 
 	* New: `aoc packages list` Add possibility to add filter with option `query`
 
@@ -3949,7 +3949,7 @@ So, it evolved into `ascli`:
 * 4.1.0
 
   	* fix: remove keys from transfer spec and command line when not needed
-  	* fix: default to create_dir:true so that sending single file to a folder does not rename file if folder does not exist 
+  	* fix: default to create_dir:true so that sending single file to a folder does not rename file if folder does not exist
   	* new: update documentation with regard to offline and docker installation
  	* new: renamed command `nagios_check` to `health`
 	* new: agent `http_gw` now supports upload

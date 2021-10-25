@@ -235,7 +235,7 @@ If you keep the same terminal (ont needed if re-login):
 $ source ~/.rvm/scripts/rvm
 ```
 
-It is advised to get one of the pre-compiled ruby version, you can list with: 
+It is advised to get one of the pre-compiled ruby version, you can list with:
 
 ```
 $ rvm list --remote
@@ -2809,7 +2809,7 @@ $ <%=cmd%> cos node info
 $ <%=cmd%> cos node upload 'faux:///sample1G?1g'
 ```
 
-Note: we generate a dummy file `sample1G` if size 2GB using the `faux` PVCL (man ascp and section above), but you can of course send a real file by specifying a real file instead.
+Note: we generate a dummy file `sample1G` of size 2GB using the `faux` PVCL (man ascp and section above), but you can of course send a real file by specifying a real file instead.
 
 # Plugin: IBM Aspera Sync
 
@@ -3426,7 +3426,7 @@ So, it evolved into <%=tool%>:
 * 4.1.0
 
   	* fix: remove keys from transfer spec and command line when not needed
-  	* fix: default to create_dir:true so that sending single file to a folder does not rename file if folder does not exist 
+  	* fix: default to create_dir:true so that sending single file to a folder does not rename file if folder does not exist
   	* new: update documentation with regard to offline and docker installation
  	* new: renamed command `nagios_check` to `health`
 	* new: agent `http_gw` now supports upload
