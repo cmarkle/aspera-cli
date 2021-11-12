@@ -4020,10 +4020,10 @@ So, it evolved into `ascli`:
 * 4.4.0.pre
 
 	* new: `aoc packages list` add possibility to add filter with option `query`
+	* new: `aoc admin res xxx list` now get all items by default #50
 	* new: `preset` option can specify name or hash value
 	* new: `node` plugin accepts bearer token and access key as credential
-	* new: `node` option `token_type` allows using basoc token instead of ATM.
-	* new: `aoc admin res list` now get all items by default #50
+	* new: `node` option `token_type` allows using basic token in addition to aspera type.
 	* change: `server`: option `username` not mandatory anymore: xfer user is by default. If transfer spec token is provided, password or keys are optional, and bypass keys are used by default. 
 	* change: (break) resource `apps_new` of `aoc` replaced with `application` (more clear)
 
